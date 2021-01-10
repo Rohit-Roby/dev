@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(185, 62%, 46%);
+}
+.top_bg{
+    position:fixed;
+    top:-70%;
+    left:-20%;
+    z-index:-1;
+}
+.bottom_bg{
+    position:fixed;
+    bottom: -70%;
+    right:-20%;
+    z-index: -1;
+}
+.profilecard{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:400px;
+    width:400px;
+    border-radius:15px;
+    background:#ffffff;
+    box-shadow: 4px 30px 25px rgba(0,0,0,0.2);
+}
+.card-top-bg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    border-radius: 15px 15px 0 0;
+}
+.profilepic{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-55%);
+    border:4px solid #ffffff;
+    border-radius:50%;
+}
+#profilepic{
+    border-radius: 50%;
+}
+.profile{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:block;
+}
+.name_age{
+    margin-top:40px;
+}
+.name{
+    font-size:larger;
+    font-weight: bold;
+    margin-right:20px;
+}
+.age{
+    font-size: larger;
+}
+.light_color{
+    color:rgba(0,0,0,0.5)
+}
+.location{
+    position:relative;
+    left:35px;
+    font-size: large;
+    margin-top:10px;
+}
+.detailtag{
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%,-10%);
+    display:flex;
+}
+.tag{
+    padding:30px;
+
+}
+.value{
+    font-size: larger;
+    font-weight: bold;
+}
+.tagname{
+    font-size: medium;
+    letter-spacing: 1px;
+    color:rgba(0,0,0,0.5)
+}
+.attribution{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    align-items: center;
+}
